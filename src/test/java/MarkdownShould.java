@@ -7,4 +7,9 @@ public class MarkdownShould {
     public void foo(){
         Assertions.assertEquals("foo", "foo");
     }
+
+    @Test
+    public void foo_foo(){
+        Assertions.assertEquals("foo_foo", "foo");
+    }
 }
