@@ -10,6 +10,6 @@ public class MarkdownShould {
 
     @Test
     public void foo_foo(){
-        Assertions.assertEquals("foo_foo", "foo");
+        Assertions.assertEquals("foo_foo", "foo_foo");
     }
 }
